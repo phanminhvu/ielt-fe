@@ -1,0 +1,44 @@
+.topicHeader {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .topicName {
+    font-weight: bold;
+  }
+
+  .inputName {
+    max-width: 50%;
+    margin-left: 10px;
+  }
+}
+
+.listeningContainer {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px rgb(100 116 139 / 6%),
+    0px 1px 2px rgb(100 116 139 / 10%);
+
+  // .partWrapper {
+  //   display: flex;
+  // }
+  .listening {
+    font-weight: bold;
+  }
+
+  .partContainer {
+    margin-top: 20px;
+  }
+
+  .partHeader {
+    align-items: center;
+  }
+
+  .partName {
+    margin-right: 20px;
+    font-weight: bold;
+  }
+}

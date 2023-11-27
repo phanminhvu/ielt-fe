@@ -1,0 +1,14 @@
+.listening {
+  display: flex;
+  margin: 10px 0px 10px 0px;
+  .listeningWrapper {
+    border: 1px solid #999999;
+    border-radius: 8px;
+    flex: 1;
+    padding: 20px;
+    .titlePart {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+}

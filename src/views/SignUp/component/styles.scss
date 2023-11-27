@@ -1,0 +1,88 @@
+.containerBox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .cardContainer {
+    width: 440px;
+    padding: 40px 32px;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+  }
+  .textSignUp {
+    color: #0c2283;
+    font-weight: 700;
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+  .content {
+    color: #8a8c91;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .buttonEmail {
+    width: 100%;
+    border-radius: 16px;
+    padding: 16px 0;
+    margin-top: 40px;
+    background: #104ac6;
+    color: #fff;
+    :hover {
+      background-color: #104ac6;
+      color: #fff;
+    }
+  }
+  .textPassword {
+    color: #8a8c91;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 4px 0px 0px 10px;
+  }
+  .line {
+    width: 50%;
+    border: 1px solid rgb(232, 234, 237);
+    background-color: rgb(232, 234, 237);
+  }
+  .lineContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+  }
+  .inputField {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    background-color: rgb(247, 249, 251);
+    padding: 8px 0px 12px 16px;
+    border: 1px solid #e3f2fd;
+    border-bottom: 1px solid rgb(138, 140, 145);
+    height: 3rem;
+    margin-top: 30px;
+  }
+}
+.modalContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  box-shadow: 24px;
+  padding: 20px;
+  border-radius: 8px;
+  .textCode {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .textOTP {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    margin-top: 8px;
+  }
+}
+.btnSubmit {
+}

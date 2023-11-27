@@ -1,0 +1,23 @@
+.modalContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  box-shadow: 24px;
+  padding: 20px;
+  border-radius: 8px;
+  .textCode {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .textOTP {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    margin-top: 8px;
+  }
+}

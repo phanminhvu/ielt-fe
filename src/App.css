@@ -1,0 +1,300 @@
+.App {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*  */
+.hover-card-bg-red:hover {
+  background: rgb(255, 160, 176);
+}
+.hover-card-bg-yellow:hover {
+  background: rgb(239, 252, 187);
+}
+.hover-card-bg-blue:hover {
+  background: rgb(198, 247, 252);
+}
+.hover-card-bg-orange:hover {
+  background: rgb(255, 203, 116);
+}
+.highlight {
+  background-color: yellow;
+}
+/* when price sale */
+.cost-money::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #114ac6;
+  top: 15px;
+}
+/* animation comment students */
+@keyframes run {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-2000px);
+  }
+}
+.container-students {
+  animation-name: run;
+  animation-duration: 90s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+/*  */
+.img-choose-plan-left {
+  background: url("https://www.testglider.com/_next/static/images/30dayPassSubBg-d287dc4499b5b6e0cffd6e97bf04ac1a.webp")
+    no-repeat;
+  background-size: cover;
+}
+.img-choose-plan-right {
+  background: url("https://www.testglider.com/_next/static/images/7dayPassBg-1a65c541b730dd78818ec08e467ec68d.webp")
+    no-repeat;
+  background-size: cover;
+}
+/* pagination */
+ul.pagination.justify-content-center {
+  display: flex;
+  gap: 20px 20px;
+  list-style-type: none;
+  justify-content: center;
+  /* padding-top: 30px; */
+}
+a.page-link {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+li.page-item.active a {
+  border: 2px solid #ccc;
+}
+/* ul */
+ul {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+/* accordion */
+.accordion::before {
+  display: none;
+}
+
+.accordion {
+  box-shadow: none !important;
+  background-color: unset !important;
+  border-bottom: 1px solid #333;
+  border-radius: 0 !important;
+}
+.card-help:hover .icon-help {
+  color: #333;
+}
+/*  */
+
+.ilets {
+  background-color: #ffe5ea;
+  border-radius: 8px;
+}
+.ilets p {
+  color: red !important;
+}
+.toefl {
+  background-color: #e4edfe;
+  border-radius: 8px;
+}
+.toefl p {
+  color: #114ac6 !important;
+}
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+  width: 240px;
+  box-sizing: border-box;
+  background: rgb(40, 36, 61);
+}
+.css-1dwim44-MuiTypography-root {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  display: block;
+}
+.css-1555fzs-MuiListItemIcon-root {
+  min-width: 40px;
+  color: #6b7280;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.css-ovu52n-MuiTypography-root {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  color: #121828;
+}
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+/* 
+.accordion-title::before {
+  display: none !important;
+}
+/*  */
+.hight-light-practive {
+  color: #df0a31 !important;
+}
+.hight-light-practive a {
+  color: #df0a31 !important;
+}
+.hight-light-review span svg {
+  color: #df0a31 !important;
+}
+.hight-light-review {
+  color: #df0a31 !important;
+}
+/* yup */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+}
+/* recorder */
+._1ceqH ._1lB9c {
+  display: none !important;
+}
+._1ceqH ._dt3-T {
+  background: none !important;
+  display: flex;
+  flex-direction: column;
+}
+._1ceqH ._1Yplu {
+  display: none !important;
+}
+._1ceqH ._f2DT8 * {
+  color: black !important;
+}
+/* did exercise */
+.part-item .high-light-page {
+  background: #4c80f1;
+  border-radius: 2px;
+  position: relative;
+  color: #fff;
+  width: 23px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+  background-image: url(./assets//image//exam/hight-light-page.png) !important;
+  text-shadow: 0 0 2px #000, 0 0 2px #000;
+}
+.did-exercise {
+  border-radius: 2px;
+  position: relative;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+  text-shadow: none;
+}
+.did-exercise::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #333;
+  bottom: 2px;
+  right: auto;
+  left: auto;
+}
+.show-page-review {
+  background-image: url(./assets//image//exam/hight-light-page.png) !important;
+  border-radius: 50% !important;
+}
+.hide-review {
+  border-radius: 2px !important;
+}
+.did-exercise-abc {
+  background-color: #fff !important;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+  background-image: url(./assets//image//exam//did-exercise.png) !important;
+}
+/*  */
+.css-1qopneg-MuiFormHelperText-root.Mui-error {
+  color: red !important;
+}
+.css-1apkv71-MuiFormLabel-root-MuiInputLabel-root.Mui-error {
+  color: red !important;
+}
+/* note */
+.change-volum {
+  display: flex;
+  align-items: center;
+}
+.hight-light-note {
+  position: relative;
+  background-color: yellow;
+  width: fit-content;
+}
+
+.hover-note {
+  display: none;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 0;
+  top: -10px;
+  background: url(./assets//image//exam/hover-note.png) no-repeat;
+}
+.hight-light-note:hover .hover-note {
+  display: block;
+}
+
+.change-color {
+  /* color: red!important; */
+  animation: changeColor 0.5s infinite ease-in-out;
+  font-size: 120%;
+}
+
+@keyframes changeColor {
+  from {
+    opacity: 0;
+    color: red;
+  }
+  to {
+    opacity: 1;
+    color: #FEE49B;
+  }
+}
+
+
